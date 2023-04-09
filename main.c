@@ -1,5 +1,5 @@
 #include <stdio.h>
 	main() {
-            biggest();
+            big();
             fact();
 }
