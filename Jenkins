@@ -18,6 +18,7 @@ pipeline {
 					echo "This is Deploy stage and completed sucessfully"
 					  }
 				   }
+				 }
             post
 				{
 				always
@@ -28,4 +29,3 @@ pipeline {
 				     }
 			    }
 	       }
-		  }
