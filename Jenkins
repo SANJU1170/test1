@@ -19,13 +19,4 @@ pipeline {
 					  }
 				   }
 				 }
-            post
-				{
-				always
-					{
-					 mail bcc: '', body: '''Dear sir 
-
-                     your job is completed sucessfully''', cc: 'sanjaygowda1170@gmail.com', from: '', replyTo: '', subject: 'STATUS OF PILELINE JOB', to: 'sanjaygowda1170@yahoo.com'
-				     }
 			    }
-	       }
